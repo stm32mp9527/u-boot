@@ -519,7 +519,7 @@
 	bus-width = <4>;
 	vmmc-supply = <&scmi_vdd_sd>;
 	status = "okay";
-};
+}; 
 
 /*
  * Original SDMMC1 configuration is inherited from parent DTSI files.
