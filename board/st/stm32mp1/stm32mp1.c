@@ -1285,7 +1285,7 @@ int fdt_update_fwu_mdata(void *blob)
 	case BOOT_FLASH_EMMC:
 		/* sdmmc2 */
 		ret = fdt_update_fwu_properties(blob, nodeoff, "u-boot,fwu-mdata-gpt",
-						"/soc/mmc@58007000");
+						"/soc/bus@5c007000/mmc@58007000");
 		break;
 
 	case BOOT_FLASH_NAND:
